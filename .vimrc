@@ -29,6 +29,7 @@ set expandtab                   " Tabs are spaces
 set softtabstop=4               " Delete tabstop spaces when spaces are tab
 set autoindent          
 set smartindent
+set encoding=utf-8
 filetype plugin indent on       " Enable specific formatting rules support for certain filetypes
 
 """""""""""""""""""""""""""""
