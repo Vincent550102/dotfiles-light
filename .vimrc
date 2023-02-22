@@ -59,7 +59,7 @@ Plug 'junegunn/gv.vim'
 Plug 'rakr/vim-one'
 Plug 'sainnhe/sonokai'
 Plug 'Raimondi/delimitMate'
-call vundle#end()
+call plug#end()
 
 """""""""""""""""""""""""""""
 " Theme and specific settings 

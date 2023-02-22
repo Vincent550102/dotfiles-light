@@ -10,6 +10,6 @@ git clone https://github.com/sainnhe/sonokai.git
 cp sonokai/colors/sonokai.vim ~/.vim/colors
 cp ./.vimrc ~/
 #setup plugins
-vim +PluginInstall +qall
+vim +PlugInstall +qall
 #clean package
 rm -rf ./sonokai
