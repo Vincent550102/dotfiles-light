@@ -47,18 +47,18 @@ set wildmode=list:longest,full  " Allow full list and auto-completion in wildmen
 """""""""""""""""""""""""""""
 set rtp+=~/.vim/bundle/Vundle.vim
 
-call vundle#begin()
-Plugin 'itchyny/lightline.vim'
-Plugin 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle', 'tag': '6.10.9' }
-Plugin 'Xuyuanp/nerdtree-git-plugin'
-Plugin 'tpope/vim-fugitive', { 'tag': 'v3.3' }
-Plugin 'majutsushi/tagbar', {'on':['TagbarToggle'], 'tag': 'v3.0.0' }
-Plugin 'nathanaelkane/vim-indent-guides', { 'tag': '1.6' }
-Plugin 'wlemuel/vim-tldr', { 'tag': 'v0.4' }
-Plugin 'junegunn/gv.vim'
-Plugin 'rakr/vim-one'
-Plugin 'sainnhe/sonokai'
-Plugin 'Raimondi/delimitMate'
+call plug#begin()
+Plug 'itchyny/lightline.vim'
+Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle', 'tag': '6.10.9' }
+Plug 'Xuyuanp/nerdtree-git-plugin'
+Plug 'tpope/vim-fugitive', { 'tag': 'v3.3' }
+Plug 'majutsushi/tagbar', {'on':['TagbarToggle'], 'tag': 'v3.0.0' }
+Plug 'nathanaelkane/vim-indent-guides', { 'tag': '1.6' }
+Plug 'wlemuel/vim-tldr', { 'tag': 'v0.4' }
+Plug 'junegunn/gv.vim'
+Plug 'rakr/vim-one'
+Plug 'sainnhe/sonokai'
+Plug 'Raimondi/delimitMate'
 call vundle#end()
 
 """""""""""""""""""""""""""""
